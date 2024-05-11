@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/ASUS/Desktop/Html & Css"
+		},
+		{
+			"path": "../../../Azad Howlader (s379798) - Assessment webpage"
+		},
+		{
+			"path": "../../../../../CVs/Cv HTML"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Html & Css"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python"
+		]
+	}
+}
