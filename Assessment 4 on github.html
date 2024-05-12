@@ -41,9 +41,39 @@
                 margin: 1.4%;
                 text-align: center;
             }
+            /* Styling for the navigation bar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        /* Styling for navigation links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        /* Change the color of links on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Active/current link */
+        .navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
         </style>
     </head>
     <body>
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
         <section class="introduction">
         <h2>What is Microsoft Bi?</h2>
         <p style="text-align: center;">Data visualization has gained popularity in various fields, including libraries, where they are well-equipped to <br>
