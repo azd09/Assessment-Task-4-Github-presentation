@@ -7,7 +7,6 @@ body{
     color: #333;
 }
 .box{
-    background-color: rgb(254, 254, 253);
     margin: 0%;
     text-align: center;
 }
@@ -37,7 +36,7 @@ p {
     text-align: center;
 }
 .introduction {
-    background-color:#00d6845a;
+    background-color:azure;
     margin: 1%;
     text-align: center;
 }
@@ -65,6 +64,27 @@ color: black;
 background-color: #4CAF50;
 color: white;
 }
+ table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color:#85f189;
+        }
 @media only screen and (max-width: 620px) {
     .main, .menu, .right {
         width: 100%;
