@@ -58,3 +58,6 @@ p {
         margin: 0%;
         background-color: aliceblue;
     }
+    .center {
+        padding: 60%;
+    }
