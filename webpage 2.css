@@ -54,3 +54,7 @@ p {
             width: 100%;
         }
     }
+    .img{
+        margin: 0%;
+        background-color: aliceblue;
+    }
