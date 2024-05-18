@@ -11,6 +11,7 @@ header{
     color: rgb(51, 90, 83);
     padding: 20px 0;
     text-align: center;
+    float: initial;
 }
 h1, h2, h3 {
     margin: 0;
@@ -28,6 +29,7 @@ p {
     background: #ddd;
     padding: 10px 20px;
     margin: 20px;
+    text-align: center;
 }
 .introduction {
     background-color: antiquewhite;
@@ -57,4 +59,9 @@ color: black;
 .navbar a.active {
 background-color: #4CAF50;
 color: white;
+}
+@media only screen and (max-width: 620px) {
+    .main, .menu, .right {
+        width: 100%;
+    }
 }
