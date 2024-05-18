@@ -85,7 +85,7 @@ color: white;
         tr:hover {
             background-color:#85f189;
         }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
     .main, .menu, .right, table {
         width: 100%;
     }
