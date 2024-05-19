@@ -11,6 +11,7 @@ body{
     margin: 0%;
     text-align: center;
 }
+/*css for header*/
 header{
     background: #00d684;
     color: rgb(51, 90, 83);
@@ -21,6 +22,7 @@ header{
 h1, h2, h3 {
     margin: 0;
 }
+/*css for heading 2*/
 h2{
     color: #333;
     margin-top: 20px;
@@ -33,9 +35,9 @@ p {
 }
 /*styling for references*/
 .references {
-    background: #ddd;
-    padding: 10px 20px;
-    margin: 20px;
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
 }
 /*introduction styling*/
@@ -96,7 +98,7 @@ color: white;
     }
 }
 @media (max-width:620px) {
-    table, nav {
+    table, nav, p {
         width: auto; height: auto;
     }
 }
