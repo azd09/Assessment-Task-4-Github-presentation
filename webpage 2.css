@@ -1,10 +1,15 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,
+     Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
     color: #333;
+}
+.box{
+    margin: 0%;
+    text-align: center;
 }
 header{
     background: #00d684;
@@ -49,7 +54,7 @@ p {
     background-color: #4CAF50;
     color: white;
     }
-    @media only screen and (max-width: 620px) {
+    @media only screen and (max-width: 600px) {
         .main, .menu, .right {
             width: 100%;
         }
@@ -57,6 +62,10 @@ p {
     .img{
         margin: 0%;
         background-color: aliceblue;
+    }
+    .img p{
+        text-align: center;
+        font-size: 2vw;
     }
     .center {
         padding: 60%;
