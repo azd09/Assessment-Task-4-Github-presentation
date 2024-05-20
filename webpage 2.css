@@ -59,6 +59,12 @@ p {
             width: 100%;
         }
     }
+   
+    @media (max-width:620px) {
+        table, nav, p {
+            width: auto; height: auto;
+        }
+    }
     .img{
         margin: 0%;
         background-color: aliceblue;
