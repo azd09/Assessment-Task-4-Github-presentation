@@ -1,5 +1,6 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,
+    Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -25,20 +26,24 @@ h2{
     margin-top: 20px;
     margin-left: 1%;
 }
+/*all p element styling*/
 p {
     margin: 20px;
     text-align: justify;
 }
+/*styling for references*/
 .references {
     background: #ddd;
     padding: 10px 20px;
     margin: 20px;
     text-align: center;
 }
+/*introduction styling*/
 .introduction {
     background-color:azure;
     margin: 1%;
     text-align: center;
+    
 }
 /* Styling for the navigation bar */
 .navbar {
@@ -65,28 +70,33 @@ background-color: #4CAF50;
 color: white;
 }
  table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-        }
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
 
-        th, td {
-            padding: 12px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
 
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
 
-        tr:hover {
-            background-color:#85f189;
+    tr:hover {
+        background-color:#85f189;
         }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 600px) {
     .main, .menu, .right {
         width: 100%;
+    }
+}
+@media (max-width:620px) {
+    table, nav {
+        width: auto; height: auto;
     }
 }
